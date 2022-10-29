@@ -1,7 +1,7 @@
 # Geek
 Lançamentos da cultura geek
 scrummaster: Ana Clara Maximino
-mebros:
+membros:
 Arthur Aguiar
 Henrique Rodrigues
 Isabela Guessi
