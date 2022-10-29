@@ -4,48 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox / CSS Grid</title>
+    <title>Geek</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     
     <header class="header">
+<<<<<<< Updated upstream
         <a href="images/logo.jpeg">Logo</a>
+=======
+        <img src="./images/GEEK.png">
+>>>>>>> Stashed changes
         <nav>
             <ul class="menu">
-                <li><a href="pages/about.html">Sobre</a></li>
-                <li><a href="pages/contato.html">Contato</a></li>
+                <li><a href="pages/about.html" class="sobre">Sobre</a></li>
+                <li><a href="pages/contato.html" class="contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <h1>Section FlexBox</h1>
+    <h1>Geek</h1>
 
-    <section id="sobre" class="flex">
+    <section class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
 
-        <div>
-            <img src="./images/animes.jpg" alt="">
-            <p>Legenda</p>
+            <div class="slide s1">
+                <img src="images/mangá.jpg" alt="Mangás">
+            </div>
+            <div class="slide">
+                <img src="images/eventos.jpg" alt="BGS 2022">
+            </div>
+            <div class="slide">
+                <img src="images/filmes.jpg" alt="Filmes">
+            </div>
+            <div class="slide">
+                <img src="images/jogos.jpg" alt="Jogos">
+            </div>
+            <div class="slide">
+                <img src="images/animes.jpg" alt="Animes">
+            </div>
         </div>
 
-        <div>
-            <img src="./images/eventos.jpg" alt="">
-            <p>Legenda</p>
-        </div>
-
-        <div>
-            <img src="./images/filmes.jpg" alt="">
-            <p>Legenda</p>
-        </div>
-
-        <div>
-            <img src="./images/jogos.jpg" alt="">
-            <p>Legenda</p>
-        </div>
-
-        <div>
-            <img src="./images/mangá.jpg" alt="">
-            <p>Legenda</p>
+        <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
         </div>
     </section>
 
@@ -53,5 +63,6 @@
         &copy;
         <h4>Equipe Geek</h4>
     </footer>
+    
 </body>
 </html>
