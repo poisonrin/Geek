@@ -20,6 +20,10 @@ h1 {
     text-align: center;
     margin-top: 50px;
 }
+.footer {
+  margin-right: 2px;
+  color: #fff;
+}
 
 img {
     max-width: 100%;
@@ -28,7 +32,7 @@ img {
 
 .footer {
     position: absolute;
-    background: rgb(106, 192, 192);
+    background: #1d1e20;
     display: flex;
     align-items: center;
     width: 100%;
@@ -155,7 +159,9 @@ img {
   body {
   background:linear-gradient(72deg, #162E9B 3%,#6F2FA8 97%);  
   }
-
+  body h1 {
+    color: #fff;
+  }
   .content {
     height: 520px;
     width: 935px;
