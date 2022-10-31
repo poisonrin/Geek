@@ -36,15 +36,6 @@ img {
     display: flex;
     align-items: center;
     width: 100%;
-    bottom: 0;
-}
-
-.footer2 {
-    position: absolute;
-    background: #1d1e20;
-    display: flex;
-    align-items: center;
-    width: 100%;
     bottom: auto;
 }
 
