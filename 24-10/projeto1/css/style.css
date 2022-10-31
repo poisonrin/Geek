@@ -36,7 +36,7 @@ img {
     display: flex;
     align-items: center;
     width: 100%;
-    bottom: 0;
+    bottom: auto;
 }
 
 .header {
@@ -229,4 +229,10 @@ img {
   }
   #slide5:checked ~ .s1{
     margin-left: -80%;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
